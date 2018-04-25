@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/se234-lab11-backend:latest
+    ports:
+      - "8083:8080"
+  frontend:
+    image: riskycarter/se234-lab11-frontend:latest
+    ports:
+      - "8084:80"
+
